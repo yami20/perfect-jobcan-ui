@@ -4,7 +4,7 @@
   "description": "CSS for jobcan",
   "content_scripts": [
     {
-      "matches": ["https://ssl.jobcan.jp/*"],
+      "matches": ["https://ssl.jobcan.jp/employee/attendance/edit"],
       "css": ["style.css"]
     }
   ],
