@@ -1,0 +1,12 @@
+{
+  "name": "jobcan edit css",
+  "version": "1.0",
+  "description": "CSS for jobcan",
+  "content_scripts": [
+    {
+      "matches": ["https://ssl.jobcan.jp/*"],
+      "css": ["style.css"]
+    }
+  ],
+  "manifest_version": 2
+}
